@@ -17,3 +17,121 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    width: 920px;
+    height: 500px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 307px;
+    height: 500px;
+    position: relative;
+}
+
+.card-sedans {
+    background-color: var(--primary-bright-orange);
+}
+
+.card-sedans button {
+    color: var(--primary-bright-orange);
+}
+
+.card-sedans button:active {
+    background-color: var(--primary-bright-orange);
+}
+
+.card-suvs {
+    background-color: var(--primary-dark-cyan);
+}
+
+.card-suvs button {
+    color: var(--primary-dark-cyan);
+}
+
+.card-suvs button:active {
+    background-color: var(--primary-dark-cyan);
+}
+
+.card-luxury {
+    background-color: var(--primary-very-dark-cyan);
+}
+
+.card-luxury button {
+    color: var(--primary-very-dark-cyan)
+}
+
+.card-luxury button:active {
+    background-color: var(--primary-very-dark-cyan);
+}
+
+.card img {
+    width: 64px;
+    height: 40px;
+    position: absolute;
+    top: 48px;
+    left: 48px;
+}
+
+.card h2 {
+    width: 99px;
+    height: 48px;
+    position: absolute;
+    top: 123px;
+    left: 48px;
+    font-family: var(--font-family-big-shoulders);
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--neutral-very-light-gray);
+}
+
+.card p {
+    width: 212px;
+    height: 125px;
+    position: absolute;
+    top: 196px;
+    left: 47.5px;
+    font-family: var(--font-family-lexend);
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.card button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 146px;
+    height: 48px;
+    position: absolute;
+    top: 404px;
+    left: 48px;
+    border-radius: 25px;
+    background-color: var(--neutral-very-light-gray);
+    font-family: var(--font-family-lexend);
+    font-size: 15px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.card button:active {
+    color: var(--neutral-transparent-white);
+    border: 2px solid #fff;
+}
+
+.attribution {
+    text-align: center;
+}

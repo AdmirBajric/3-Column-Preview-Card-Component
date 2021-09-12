@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+    body {
+        height: 1502px;
+    }
+
+    #main {
+        width: 327px;
+        height: 1326px;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 327px;
+        height: 442px;
+        position: relative;
+    }
+
+    .card img {
+        left: 49px;
+    }
+
+    .card h2 {
+        left: 49px;
+    }
+
+    .card p {
+        width: 231px;
+    }
+
+    .card button {
+        top: 346px;
+        left: 49px;
+    }
+}
